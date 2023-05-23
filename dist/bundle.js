@@ -16,7 +16,17 @@
   \**********************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n\nvar foo = function foo() {\n  return console.log(3);\n};\n\n//# sourceURL=webpack://store-digital-design/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var normalize_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! normalize-scss */ \"./node_modules/normalize-scss/sass/_normalize.scss\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n\n\nvar foo = function foo() {\n  return console.log(3);\n};\n\n//# sourceURL=webpack://store-digital-design/./src/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/normalize-scss/sass/_normalize.scss":
+/*!**********************************************************!*\
+  !*** ./node_modules/normalize-scss/sass/_normalize.scss ***!
+  \**********************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://store-digital-design/./node_modules/normalize-scss/sass/_normalize.scss?");
 
 /***/ }),
 
