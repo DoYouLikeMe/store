@@ -19,6 +19,16 @@ eval("function _typeof(obj) { \"@babel/helpers - typeof\"; return _typeof = \"fu
 
 /***/ }),
 
+/***/ "./src/components/scrollButton.js":
+/*!****************************************!*\
+  !*** ./src/components/scrollButton.js ***!
+  \****************************************/
+/***/ (function() {
+
+eval("var scrollButton = document.querySelector(\".scroll-button\");\nvar scroollToTheTop = function scroollToTheTop() {\n  setTimeout(function () {\n    return window.scrollTo({\n      top: 0,\n      behavior: \"smooth\"\n    });\n  }, 300);\n};\nscrollButton.addEventListener(\"click\", scroollToTheTop);\nvar revealButton = function revealButton() {\n  if (window.scrollY > 30) {\n    scrollButton.classList.add(\"scroll-button_visible\");\n  } else {\n    scrollButton.classList.remove(\"scroll-button_visible\");\n  }\n};\nwindow.addEventListener(\"scroll\", revealButton);\n\n//# sourceURL=webpack://store-digital-design/./src/components/scrollButton.js?");
+
+/***/ }),
+
 /***/ "./src/components/scrollNavigation.js":
 /*!********************************************!*\
   !*** ./src/components/scrollNavigation.js ***!
@@ -36,7 +46,7 @@ eval("var navigation = document.querySelector(\".navigation\");\nvar scrollToLin
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/scrollNavigation.js */ \"./src/components/scrollNavigation.js\");\n/* harmony import */ var _components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_items_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/items.js */ \"./src/components/items.js\");\n/* harmony import */ var _components_items_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_items_js__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\n//# sourceURL=webpack://store-digital-design/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _components_scrollButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/scrollButton */ \"./src/components/scrollButton.js\");\n/* harmony import */ var _components_scrollButton__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_scrollButton__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/scrollNavigation.js */ \"./src/components/scrollNavigation.js\");\n/* harmony import */ var _components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _components_items_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/items.js */ \"./src/components/items.js\");\n/* harmony import */ var _components_items_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_items_js__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\n//# sourceURL=webpack://store-digital-design/./src/index.js?");
 
 /***/ }),
 
