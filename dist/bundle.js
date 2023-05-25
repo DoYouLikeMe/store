@@ -19,6 +19,16 @@ eval("function _typeof(obj) { \"@babel/helpers - typeof\"; return _typeof = \"fu
 
 /***/ }),
 
+/***/ "./src/components/scrollNavigation.js":
+/*!********************************************!*\
+  !*** ./src/components/scrollNavigation.js ***!
+  \********************************************/
+/***/ (function() {
+
+eval("var navigation = document.querySelector(\".navigation\");\nvar scrollToLink = function scrollToLink(e) {\n  e.preventDefault();\n  var link = e.target.closest(\".navigation__link\");\n  if (!link) return;\n  var section = document.querySelector(\"[data-category=\\\"\".concat(link.dataset.categorylink, \"\\\"]\"));\n  var navHeight = navigation.getBoundingClientRect().height + 20;\n  var positionTop = section.getBoundingClientRect().top + window.pageYOffset - navHeight;\n  window.scrollTo({\n    top: positionTop,\n    behavior: \"smooth\"\n  });\n};\nnavigation.addEventListener(\"click\", scrollToLink);\n\n//# sourceURL=webpack://store-digital-design/./src/components/scrollNavigation.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -26,7 +36,7 @@ eval("function _typeof(obj) { \"@babel/helpers - typeof\"; return _typeof = \"fu
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _components_items_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/items.js */ \"./src/components/items.js\");\n/* harmony import */ var _components_items_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_items_js__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack://store-digital-design/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/scrollNavigation.js */ \"./src/components/scrollNavigation.js\");\n/* harmony import */ var _components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_items_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/items.js */ \"./src/components/items.js\");\n/* harmony import */ var _components_items_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_items_js__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\n//# sourceURL=webpack://store-digital-design/./src/index.js?");
 
 /***/ }),
 
