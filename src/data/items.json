@@ -1,0 +1,401 @@
+[
+  {
+    "category": "trainers",
+    "date": "01.01.2022",
+    "title": "Тренажер скамья гиперэкстензия складная Domsen Ds34",
+    "image_path": "assets/images/01.jpg",
+    "id": "001"
+  },
+  {
+    "category": "trainers",
+    "date": "23.02.2023",
+    "title": "Скамья 2в1 для гиперэкстензии и пресса Domsen Ds38",
+    "image_path": "assets/images/01.jpg",
+    "id": "002"
+  },
+  {
+    "category": "trainers",
+    "date": "12.03.2023",
+    "title": "Складная скамья 2в1 для пресса и гиперэкстензии Domsen Ds30",
+    "image_path": "assets/images/01.jpg",
+    "id": "003"
+  },
+  {
+    "category": "trainers",
+    "date": "08.07.2023",
+    "title": "Тренажер для горизонтальной гиперэкстензии и пресса Domsen Ds33, римский стул",
+    "image_path": "assets/images/01.jpg",
+    "id": "004"
+  },
+  {
+    "category": "trainers",
+    "date": "09.09.2023",
+    "title": "Римский стул/гиперэкстензия Domsen Ds31",
+    "image_path": "assets/images/01.jpg",
+    "id": "005"
+  },
+  {
+    "category": "trainers",
+    "date": "02.02.2023",
+    "title": "Тренажер скамья гиперэкстензия складная Domsen Ds34",
+    "image_path": "assets/images/01.jpg",
+    "id": "006"
+  },
+  {
+    "category": "trainers",
+    "date": "22.03.2022",
+    "title": "Гиперэкстензия складная Domsen Ds34",
+    "image_path": "assets/images/01.jpg",
+    "id": "007"
+  },
+  {
+    "category": "trainers",
+    "date": "18.03.2022",
+    "title": "Стойка под штангу для жима и приседаний Domsen Ds15",
+    "image_path": "assets/images/01.jpg",
+    "id": "008"
+  },
+  {
+    "category": "trainers",
+    "date": "17.05.2022",
+    "title": "Тренажер/скамья гиперэкстензия складная Domsen Ds21",
+    "image_path": "assets/images/01.jpg",
+    "id": "009"
+  },
+  {
+    "category": "trainers",
+    "date": "01.01.2022",
+    "title": "Тренажер скамья гиперэкстензия складная Domsen Ds34",
+    "image_path": "assets/images/01.jpg",
+    "id": "010"
+  },
+  {
+    "category": "trainers",
+    "date": "23.02.2023",
+    "title": "Скамья 2в1 для гиперэкстензии и пресса Domsen Ds38",
+    "image_path": "assets/images/01.jpg",
+    "id": "011"
+  },
+  {
+    "category": "trainers",
+    "date": "12.03.2023",
+    "title": "Складная скамья 2в1 для пресса и гиперэкстензии Domsen Ds30",
+    "image_path": "assets/images/01.jpg",
+    "id": "012"
+  },
+  {
+    "category": "trainers",
+    "date": "08.07.2023",
+    "title": "Тренажер для горизонтальной гиперэкстензии и пресса Domsen Ds33, римский стул",
+    "image_path": "assets/images/01.jpg",
+    "id": "013"
+  },
+  {
+    "category": "bicycles",
+    "date": "09.09.2023",
+    "title": "Велосипед горный MILANO M500 мужской, 26",
+    "image_path": "assets/images/02.jpg",
+    "id": "014"
+  },
+  {
+    "category": "bicycles",
+    "date": "02.02.2023",
+    "title": "BMX, Dirt/Street Велосипед FNIX BMX, 20, 2023",
+    "image_path": "assets/images/02.jpg",
+    "id": "015"
+  },
+  {
+    "category": "bicycles",
+    "date": "22.03.2022",
+    "title": "Велосипед горный MILANO M500 мужской, 26",
+    "image_path": "assets/images/02.jpg",
+    "id": "016"
+  },
+  {
+    "category": "bicycles",
+    "date": "18.03.2022",
+    "title": "Велосипед горный MILANO M300 мужской, 26",
+    "image_path": "assets/images/02.jpg",
+    "id": "017"
+  },
+  {
+    "category": "bicycles",
+    "date": "17.05.2022",
+    "title": "Велосипед городской NEXTbike IPANEMA 26",
+    "image_path": "assets/images/02.jpg",
+    "id": "018"
+  },
+  {
+    "category": "bicycles",
+    "date": "17.05.2022",
+    "title": "Велосипед городской MAXIT D050 26",
+    "image_path": "assets/images/02.jpg",
+    "id": "019"
+  },
+  {
+    "category": "bicycles",
+    "date": "17.05.2022",
+    "title": "Велосипед Royal Baby Little",
+    "image_path": "assets/images/02.jpg",
+    "id": "020"
+  },
+  {
+    "category": "bicycles",
+    "date": "17.05.2022",
+    "title": "Горный, Городской Велосипед",
+    "image_path": "assets/images/02.jpg",
+    "id": "021"
+  },
+  {
+    "category": "bicycles",
+    "date": "17.05.2022",
+    "title": "Велосипед горный MAXIT D160 26",
+    "image_path": "assets/images/02.jpg",
+    "id": "022"
+  },
+  {
+    "category": "bicycles",
+    "date": "17.05.2022",
+    "title": "Велосипед городской MAXIT D060 26",
+    "image_path": "assets/images/02.jpg",
+    "id": "023"
+  },
+  {
+    "category": "bicycles",
+    "date": "17.05.2022",
+    "title": "Велосипед горный NEXTbike N250 24",
+    "image_path": "assets/images/02.jpg",
+    "id": "024"
+  },
+  {
+    "category": "bicycles",
+    "date": "17.05.2022",
+    "title": "Велосипед Royal Baby Freestyle Steel 16",
+    "image_path": "assets/images/02.jpg",
+    "id": "025"
+  },
+  {
+    "category": "bicycles",
+    "date": "17.05.2022",
+    "title": "Велосипед женский взрослый Black One",
+    "image_path": "assets/images/02.jpg",
+    "id": "027"
+  },
+  {
+    "category": "bicycles",
+    "date": "17.05.2022",
+    "title": "Городской Велосипед Altair",
+    "image_path": "assets/images/02.jpg",
+    "id": "028"
+  },
+  {
+    "category": "bicycles",
+    "date": "17.05.2022",
+    "title": "Велосипед горный MAXIT D250 27,5",
+    "image_path": "assets/images/02.jpg",
+    "id": "029"
+  },
+  {
+    "category": "bicycles",
+    "date": "17.05.2022",
+    "title": "Горный, Складной Велосипед KANO",
+    "image_path": "assets/images/02.jpg",
+    "id": "030"
+  },
+  {
+    "category": "bicycles",
+    "date": "17.05.2022",
+    "title": "Велосипед горный NEXTbike",
+    "image_path": "assets/images/02.jpg",
+    "id": "031"
+  },
+  {
+    "category": "accessories",
+    "date": "17.05.2022",
+    "title": "Ремень MN DEPPSTER II WEB",
+    "image_path": "assets/images/03.jpg",
+    "id": "032"
+  },
+  {
+    "category": "accessories",
+    "date": "17.05.2022",
+    "title": "Ремень CONDUCTOR II WEB BELT",
+    "image_path": "assets/images/03.jpg",
+    "id": "033"
+  },
+  {
+    "category": "accessories",
+    "date": "17.05.2022",
+    "title": "Ремень ICEPEAK HARRISVILLE",
+    "image_path": "assets/images/03.jpg",
+    "id": "034"
+  },
+  {
+    "category": "accessories",
+    "date": "17.05.2022",
+    "title": "Ремень STITCH WITCH",
+    "image_path": "assets/images/03.jpg",
+    "id": "035"
+  },
+  {
+    "category": "accessories",
+    "date": "17.05.2022",
+    "title": "Ремень MN SHREDTOR II WEB",
+    "image_path": "assets/images/03.jpg",
+    "id": "036"
+  },
+  {
+    "category": "accessories",
+    "date": "17.05.2022",
+    "title": "Ремень фитнес на липучке",
+    "image_path": "assets/images/03.jpg",
+    "id": "037"
+  },
+  {
+    "category": "accessories",
+    "date": "17.05.2022",
+    "title": "Ремень MN DEPPSTER II WEB",
+    "image_path": "assets/images/03.jpg",
+    "id": "038"
+  },
+  {
+    "category": "accessories",
+    "date": "17.05.2022",
+    "title": "Ремень STITCHNESS M BLTS KVJ0",
+    "image_path": "assets/images/03.jpg",
+    "id": "039"
+  },
+  {
+    "category": "accessories",
+    "date": "17.05.2022",
+    "title": "Пояс для фитнеса",
+    "image_path": "assets/images/03.jpg",
+    "id": "040"
+  },
+  {
+    "category": "accessories",
+    "date": "17.05.2022",
+    "title": "EA7 Ремень",
+    "image_path": "assets/images/03.jpg",
+    "id": "041"
+  },
+  {
+    "category": "accessories",
+    "date": "17.05.2022",
+    "title": "Icepeak Ремень ICEPEAK HANFORD",
+    "image_path": "assets/images/03.jpg",
+    "id": "042"
+  },
+  {
+    "category": "accessories",
+    "date": "17.05.2022",
+    "title": "Icepeak Ремень ICEPEAK HARRISVILLE",
+    "image_path": "assets/images/03.jpg",
+    "id": "043"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Спортивный костюм Reebok Ri Fleece",
+    "image_path": "assets/images/04.jpg",
+    "id": "044"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Комплект одежды Modjimoda",
+    "image_path": "assets/images/04.jpg",
+    "id": "045"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Спортивный костюм KS.Mod",
+    "image_path": "assets/images/04.jpg",
+    "id": "046"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Спортивный костюм Modjimoda",
+    "image_path": "assets/images/04.jpg",
+    "id": "047"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Спортивный костюм Фабрика Хороший Трикотаж",
+    "image_path": "assets/images/04.jpg",
+    "id": "048"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Спортивный костюм BEST TRICOTAGE",
+    "image_path": "assets/images/04.jpg",
+    "id": "049"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Комплект одежды Сити Текс Спорт",
+    "image_path": "assets/images/04.jpg",
+    "id": "050"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Спортивный костюм PUMA Clean Sweat Suit TR",
+    "image_path": "assets/images/04.jpg",
+    "id": "051"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Спортивный костюм Reebok Wor Tracksuit",
+    "image_path": "assets/images/04.jpg",
+    "id": "052"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Спортивный костюм МСМ-Виктория",
+    "image_path": "assets/images/04.jpg",
+    "id": "053"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Комплект одежды AMAZING CLOTHES",
+    "image_path": "assets/images/04.jpg",
+    "id": "054"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Спортивный костюм IHOMELUX",
+    "image_path": "assets/images/04.jpg",
+    "id": "055"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Спортивный костюм adidas Sportswear Tracksuit",
+    "image_path": "assets/images/04.jpg",
+    "id": "056"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Спортивный костюм VOSHOD",
+    "image_path": "assets/images/04.jpg",
+    "id": "057"
+  },
+  {
+    "category": "sportswear",
+    "date": "17.05.2022",
+    "title": "Спортивный костюм BendClub",
+    "image_path": "assets/images/04.jpg",
+    "id": "058"
+  }
+]

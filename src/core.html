@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Hello!!!</h1>
-  <img src="data/hotel3.jpg" alt="s">
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Тренажеры</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Велосипеды</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Аксессуары</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Спортивная одежда</a>
+            </li>
+          </ul>
+          <button type="button" class="switch"></button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1 class="main-heading">Категории</h1>
+        <section class="category-section" data-category="trainers">
+          <h2 class="category-heading">Тренажеры</h2>
+          <div class="items-wrapper"></div>
+        </section>
+        <section class="category-section" data-category="bicycles">
+          <h2 class="category-heading">Велосипеды</h2>
+          <div class="items-wrapper"></div>
+        </section>
+        <section class="category-section" data-category="accessories">
+          <h2 class="category-heading">Аксессуары</h2>
+          <div class="items-wrapper"></div>
+        </section>
+        <section class="category-section" data-category="sportswear">
+          <h2 class="category-heading">Спортивная одежда</h2>
+          <div class="items-wrapper"></div>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>

@@ -1,0 +1,21 @@
+.btn {
+  background-color: #fb565a;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 5px;
+  font-family: "Roboto";
+  box-sizing: border-box;
+  cursor: pointer;
+  min-width: 150px;
+  max-width: 100%;
+  &:hover {
+    background-color: #e74246;
+  }
+  &:active {
+    background-color: #d7373b;
+  }
+}

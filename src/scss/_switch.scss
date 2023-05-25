@@ -1,0 +1,29 @@
+.switch {
+  width: 100px;
+  height: 30px;
+  border-radius: 34px;
+  border: none;
+  display: flex;
+  align-items: center;
+  transition: 1.5s all;
+  position: relative;
+  &::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #292121;
+    border-radius: 50%;
+    transition: 1s all;
+    position: absolute;
+    left: 5px;
+  }
+  &_night-theme {
+    background-color: #000;
+    &::after {
+      background-color: #fcfcfc;
+      left: 100%;
+      margin-left: -25px;
+    }
+  }
+}

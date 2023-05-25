@@ -2,7 +2,6 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const postcss = require("postcss");
 
 module.exports = {
   entry: "./src/index.js",
@@ -19,7 +18,10 @@ module.exports = {
       template: "./src/core.html",
     }),
     new CopyWebpackPlugin({
-      patterns: [{from: "src/data", to: "data"}],
+      patterns: [
+        {from: "src/assets", to: "assets"},
+        {from: "src/data", to: "data"},
+      ],
     }),
     new MiniCssExtractPlugin({
       filename: "[name].css",
@@ -39,6 +41,13 @@ module.exports = {
           options: {
             presets: ["@babel/preset-env"],
           },
+        },
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        type: "asset/resource",
+        generator: {
+          filename: "assets/fonts/[name][ext]",
         },
       },
       {
