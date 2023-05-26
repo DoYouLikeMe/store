@@ -1,3 +1,5 @@
+import {getWeekNumber, convertDate} from "../utils/convertDate.js";
+
 const categories = document.querySelectorAll(".category-section");
 
 const showItems = async function (categoryName, container) {
@@ -22,7 +24,7 @@ const showItems = async function (categoryName, container) {
                  ${title}
                 </figcaption>
               </figure>
-              <p class="item__date">${date}</p>
+              <p class="item__date">${convertDate(date)}</p>
               <button class="btn">Купить</button>
             </div>`;
 
