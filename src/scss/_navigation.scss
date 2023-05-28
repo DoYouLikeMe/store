@@ -12,12 +12,14 @@
   padding: 15px 20px;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   box-sizing: border-box;
 
   &__list {
     padding: 0;
     display: flex;
     column-gap: 20px;
+    flex-wrap: wrap;
     list-style: none;
   }
 
@@ -27,5 +29,10 @@
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    transition: 0.5s ease-in;
+    border-bottom: 2px solid transparent;
+    &:hover {
+      border-bottom: 2px solid #000;
+    }
   }
 }
