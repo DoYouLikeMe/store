@@ -62,6 +62,16 @@ eval("var navigation = document.querySelector(\".navigation\");\nvar footerNavig
 
 /***/ }),
 
+/***/ "./src/components/switch.js":
+/*!**********************************!*\
+  !*** ./src/components/switch.js ***!
+  \**********************************/
+/***/ (function() {
+
+eval("var switcher = document.querySelector(\".switch\");\nvar body = document.querySelector(\"body\");\nvar switchNightMode = function switchNightMode() {\n  switcher.classList.toggle(\"switch_night-theme\");\n  body.classList.toggle(\"night-theme\");\n};\nswitcher.addEventListener(\"click\", switchNightMode);\n\n//# sourceURL=webpack://store-digital-design/./src/components/switch.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -69,7 +79,7 @@ eval("var navigation = document.querySelector(\".navigation\");\nvar footerNavig
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _components_scrollButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/scrollButton */ \"./src/components/scrollButton.js\");\n/* harmony import */ var _components_scrollButton__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_scrollButton__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/scrollNavigation.js */ \"./src/components/scrollNavigation.js\");\n/* harmony import */ var _components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _components_items_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/items.js */ \"./src/components/items.js\");\n/* harmony import */ var _components_popup_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/popup.js */ \"./src/components/popup.js\");\n\n\n\n\n\n\n//# sourceURL=webpack://store-digital-design/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _components_scrollButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/scrollButton */ \"./src/components/scrollButton.js\");\n/* harmony import */ var _components_scrollButton__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_scrollButton__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/scrollNavigation.js */ \"./src/components/scrollNavigation.js\");\n/* harmony import */ var _components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_scrollNavigation_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _components_items_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/items.js */ \"./src/components/items.js\");\n/* harmony import */ var _components_popup_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/popup.js */ \"./src/components/popup.js\");\n/* harmony import */ var _components_switch_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/switch.js */ \"./src/components/switch.js\");\n/* harmony import */ var _components_switch_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_components_switch_js__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\n\n//# sourceURL=webpack://store-digital-design/./src/index.js?");
 
 /***/ }),
 
