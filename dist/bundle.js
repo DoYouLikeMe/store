@@ -68,7 +68,7 @@ eval("var navigation = document.querySelector(\".navigation\");\nvar footerNavig
   \**********************************/
 /***/ (function() {
 
-eval("var switcher = document.querySelector(\".switch\");\nvar body = document.querySelector(\"body\");\nvar switchNightMode = function switchNightMode() {\n  switcher.classList.toggle(\"switch_night-theme\");\n  body.classList.toggle(\"night-theme\");\n};\nswitcher.addEventListener(\"click\", switchNightMode);\n\n//# sourceURL=webpack://store-digital-design/./src/components/switch.js?");
+eval("var switcher = document.querySelector(\".switch\");\nvar body = document.querySelector(\"body\");\nvar theme = localStorage.getItem(\"theme\");\nvar switchNightMode = function switchNightMode(event) {\n  if (theme === \"night\") {\n    localStorage.removeItem(\"theme\");\n  } else {\n    localStorage.setItem(\"theme\", \"night\");\n  }\n  switcher.classList.toggle(\"switch_night-theme\");\n  body.classList.toggle(\"night-theme\");\n};\nif (theme === \"night\") {\n  switcher.classList.add(\"switch_night-theme\");\n  body.classList.add(\"night-theme\");\n}\nswitcher.addEventListener(\"click\", switchNightMode);\n\n//# sourceURL=webpack://store-digital-design/./src/components/switch.js?");
 
 /***/ }),
 
