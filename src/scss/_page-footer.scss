@@ -1,0 +1,25 @@
+.page-footer {
+  display: flex;
+  width: 100%;
+  background-color: #f7e296;
+  padding: 15px 20px;
+  align-items: center;
+  box-sizing: border-box;
+
+  &__list {
+    padding: 0;
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

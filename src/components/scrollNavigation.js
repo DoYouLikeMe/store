@@ -1,8 +1,9 @@
 const navigation = document.querySelector(".navigation");
+const footerNavigation = document.querySelector(".page-footer__navigation");
 
 const scrollToLink = function (e) {
   e.preventDefault();
-  const link = e.target.closest(".navigation__link");
+  const link = e.target.closest("a");
   if (!link) return;
 
   const section = document.querySelector(
@@ -16,4 +17,5 @@ const scrollToLink = function (e) {
   window.scrollTo({top: positionTop, behavior: "smooth"});
 };
 
+footerNavigation.addEventListener("click", scrollToLink);
 navigation.addEventListener("click", scrollToLink);

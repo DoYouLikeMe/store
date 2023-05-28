@@ -58,7 +58,7 @@ eval("var scrollButton = document.querySelector(\".scroll-button\");\nvar scrool
   \********************************************/
 /***/ (function() {
 
-eval("var navigation = document.querySelector(\".navigation\");\nvar scrollToLink = function scrollToLink(e) {\n  e.preventDefault();\n  var link = e.target.closest(\".navigation__link\");\n  if (!link) return;\n  var section = document.querySelector(\"[data-category=\\\"\".concat(link.dataset.categorylink, \"\\\"]\"));\n  var navHeight = navigation.getBoundingClientRect().height + 20;\n  var positionTop = section.getBoundingClientRect().top + window.pageYOffset - navHeight;\n  window.scrollTo({\n    top: positionTop,\n    behavior: \"smooth\"\n  });\n};\nnavigation.addEventListener(\"click\", scrollToLink);\n\n//# sourceURL=webpack://store-digital-design/./src/components/scrollNavigation.js?");
+eval("var navigation = document.querySelector(\".navigation\");\nvar footerNavigation = document.querySelector(\".page-footer__navigation\");\nvar scrollToLink = function scrollToLink(e) {\n  e.preventDefault();\n  var link = e.target.closest(\"a\");\n  if (!link) return;\n  var section = document.querySelector(\"[data-category=\\\"\".concat(link.dataset.categorylink, \"\\\"]\"));\n  var navHeight = navigation.getBoundingClientRect().height + 20;\n  var positionTop = section.getBoundingClientRect().top + window.pageYOffset - navHeight;\n  window.scrollTo({\n    top: positionTop,\n    behavior: \"smooth\"\n  });\n};\nfooterNavigation.addEventListener(\"click\", scrollToLink);\nnavigation.addEventListener(\"click\", scrollToLink);\n\n//# sourceURL=webpack://store-digital-design/./src/components/scrollNavigation.js?");
 
 /***/ }),
 
