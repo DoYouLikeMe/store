@@ -1,4 +1,4 @@
-import {getWeekNumber, convertDate} from "../utils/convertDate.js";
+import {convertDate} from "../utils/convertDate.js";
 
 const categories = document.querySelectorAll(".category-section");
 
@@ -13,7 +13,7 @@ const showItems = async function (categoryName, container) {
   filteredByCategory.forEach((item) => {
     const {date, title, image_path, id} = item;
 
-    const html = `<div class="item" data-item-id="${id}">
+    const html = `<div class="item" data-id="${id}">
               <figure class="item__image-container">
                 <img
                   src="${image_path}"
@@ -25,7 +25,7 @@ const showItems = async function (categoryName, container) {
                 </figcaption>
               </figure>
               <p class="item__date">${convertDate(date)}</p>
-              <button class="btn">Купить</button>
+              <button class="btn item_btn">Купить</button>
             </div>`;
 
     container.insertAdjacentHTML("beforeend", html);

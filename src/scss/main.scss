@@ -11,6 +11,7 @@ body {
   color: #000000;
   margin: 0;
   padding-top: 80px;
+  position: relative;
 }
 
 .container {
@@ -20,8 +21,11 @@ body {
   margin: 0 auto;
 }
 
+@import "mixins";
 @import "buttons";
 @import "navigation";
 @import "scroolButton";
 @import "switch";
 @import "items";
+@import "popup";
+@import "form";
