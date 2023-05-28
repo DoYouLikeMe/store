@@ -10,9 +10,15 @@ body {
   font-family: "Roboto", sans-serif;
   color: #000000;
   margin: 0;
-  padding-top: 80px;
+  padding-top: 100px;
   position: relative;
   transition: 0.5s ease;
+  @media (max-width: 768px) {
+    padding-top: 120px;
+  }
+  @media (max-width: 320px) {
+    padding-top: 150px;
+  }
 }
 
 .container {
